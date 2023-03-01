@@ -1,7 +1,7 @@
 {
   "name": "test-alterego",
   "version": "0.1.0",
-  "homepage": "https://deep-logic2000.github.io/pet-spa-auth-localization",
+  "homepage": "https://gregarious-tiramisu-29c92d.netlify.app/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
