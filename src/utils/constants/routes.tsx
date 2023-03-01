@@ -30,7 +30,7 @@ const routes: IRouterRoutes = {
       element: <News />,
     },
     {
-      path: "/sign-in",
+      path: "/signin",
       element: <SignInPage />,
     },
     {

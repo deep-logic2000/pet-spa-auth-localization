@@ -131,7 +131,7 @@ const Header = () => {
                 {t("buttons.logout")}
               </Button>
             ) : (
-              <Button href="/sign-in" variant="contained">
+              <Button href="/signin" variant="contained">
                 {t("buttons.login")}
               </Button>
             )}
