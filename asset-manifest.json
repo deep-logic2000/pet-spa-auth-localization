@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/pet-spa-auth-localization/static/css/main.4a99d970.css",
+    "main.js": "/pet-spa-auth-localization/static/js/main.71578fc2.js",
+    "static/media/welcome.png": "/pet-spa-auth-localization/static/media/welcome.b34f4d58b49466119a2f.png",
+    "static/media/logo.svg": "/pet-spa-auth-localization/static/media/logo.3157e294bba24822151e08820c1d4535.svg",
+    "static/media/profile-img.png": "/pet-spa-auth-localization/static/media/profile-img.9026e55a14a48fd2838e.png",
+    "static/media/not-found-img.png": "/pet-spa-auth-localization/static/media/not-found-img.774add7a331efa261de3.png",
+    "index.html": "/pet-spa-auth-localization/index.html",
+    "static/media/getFetch.cjs": "/pet-spa-auth-localization/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.4a99d970.css.map": "/pet-spa-auth-localization/static/css/main.4a99d970.css.map",
+    "main.71578fc2.js.map": "/pet-spa-auth-localization/static/js/main.71578fc2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a99d970.css",
+    "static/js/main.71578fc2.js"
+  ]
+}
