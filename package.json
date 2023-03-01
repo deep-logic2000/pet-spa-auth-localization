@@ -1,7 +1,7 @@
 {
   "name": "test-alterego",
   "version": "0.1.0",
-  "homepage": "https://gregarious-tiramisu-29c92d.netlify.app/",
+  "homepage": "https://pet-spa-auth-localization.vercel.app/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
@@ -16,7 +16,6 @@
     "@types/node": "^16.18.12",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
-    "formik": "^2.2.9",
     "gh-pages": "^5.0.0",
     "i18next": "^22.4.10",
     "i18next-browser-languagedetector": "^7.0.1",
@@ -28,7 +27,6 @@
     "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",
     "redux": "^4.2.1",
-    "redux-thunk": "^2.4.2",
     "sass": "^1.58.3",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
