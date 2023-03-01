@@ -1,24 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from "react";
+import Snackbar from "./components/SnackBar/Snackbar";
+import "./App.css";
+import Modal from "./components/Modal/Modal";
+
+import Header from "./components/Header/Header";
+import AppRoutes from "./pages/AppRoutes";
+
+import { getItemFromLS } from "./utils/localStorage";
+import { setIsAuthenticated } from "./store/reducers/userSlice";
+import { useAppDispatch } from "./hooks/typedRedux";
 
 function App() {
+  const dispatch = useAppDispatch();
+  const checkIsAuth = async () => {
+    try {
+      const isAuth = getItemFromLS("isAuthenticated");
+      if (isAuth === "true") {
+        dispatch(setIsAuthenticated());
+      }
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  useEffect(() => {
+    checkIsAuth();
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Snackbar />
+      <AppRoutes />
+      <Modal />
+      {/* <Footer /> */}
     </div>
   );
 }
