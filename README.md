@@ -1,5 +1,8 @@
 # Application with login form & localization
 
+## Screenshot
+![image](https://github.com/deep-logic2000/pet-spa-auth-localization/assets/95580392/bdc5fa3c-70af-4d6a-8693-1c3fe252b958)
+
 ## Deploy link:
 https://pet-spa-auth-localization.vercel.app/
 
